@@ -4,13 +4,13 @@ class Cola {
         this.elementos = [];
     }
 
-    // Agregar un número (Enqueue)
+    
     agregar(numero) {
         this.elementos.push(numero);
         console.log(`Número ${numero} agregado a la cola.`);
     }
 
-    // Eliminar el primer número (Dequeue)
+   
     eliminar() {
         if (this.elementos.length === 0) {
             console.log("La cola está vacía.");
@@ -26,7 +26,7 @@ class Cola {
     }
 }
 
-// Ejemplo de uso
+
 const miCola = new Cola();
 miCola.agregar(10);
 miCola.agregar(20);
